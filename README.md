@@ -25,3 +25,16 @@ Most Recent result:
 
 **Predicted data**
 ![predicted_data](images/predicted.jpeg)
+
+
+The source of data is this repo:
+	https://github.com/MarkDana/RealtimeConeDetection
+
+Where the author labelled this dataset: 
+	https://www.dropbox.com/s/fag8b45ijv14noy/cone_dataset.tar.gz?dl=0
+
+The labelled dataset (In PASCAL VOC format, and YOLOv3 format):
+	https://jbox.sjtu.edu.cn/v/link/view/5b75acf81cbd4e3298aa118c1b1cceea
+
+Which I later converted to darknet format for Yolov5
+
