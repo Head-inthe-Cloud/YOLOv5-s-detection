@@ -19,6 +19,9 @@ Data for each run can be found in **runs** folder.
 
 Most Recent result:
 
+**Labeled data**
 ![labeled_data](images/labeled.jpeg)
 
+
+**Predicted data**
 ![predicted_data](images/predicted.jpeg)
