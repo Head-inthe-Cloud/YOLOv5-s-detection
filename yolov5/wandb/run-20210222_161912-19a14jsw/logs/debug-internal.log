@@ -1,0 +1,254 @@
+2021-02-22 16:19:13,452 INFO    MainThread:12620 [internal.py:wandb_internal():88] W&B internal server running at pid: 12620, started at: 2021-02-22 16:19:13.451971
+2021-02-22 16:19:13,453 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: check_version
+2021-02-22 16:19:13,453 DEBUG   SenderThread:12620 [sender.py:send():117] send: header
+2021-02-22 16:19:13,453 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:19:13,453 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: check_version
+2021-02-22 16:19:13,454 INFO    WriterThread:12620 [datastore.py:open_for_write():77] open: /home/patrick/YOLO/yolov5/wandb/run-20210222_161912-19a14jsw/run-19a14jsw.wandb
+2021-02-22 16:19:13,527 DEBUG   SenderThread:12620 [sender.py:send():117] send: run
+2021-02-22 16:19:13,553 INFO    SenderThread:12620 [sender.py:_maybe_setup_resume():307] checking resume status for None/YOLOv5/19a14jsw
+2021-02-22 16:19:13,860 INFO    SenderThread:12620 [sender.py:_start_run_threads():593] run started: 19a14jsw with start time 1614039553
+2021-02-22 16:19:13,863 DEBUG   SenderThread:12620 [sender.py:send():117] send: summary
+2021-02-22 16:19:13,863 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-22 16:19:13,864 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: run_start
+2021-02-22 16:19:13,868 DEBUG   HandlerThread:12620 [meta.py:__init__():34] meta init
+2021-02-22 16:19:13,868 DEBUG   HandlerThread:12620 [meta.py:__init__():48] meta init done
+2021-02-22 16:19:13,868 DEBUG   HandlerThread:12620 [meta.py:probe():190] probe
+2021-02-22 16:19:13,874 DEBUG   HandlerThread:12620 [meta.py:_setup_git():180] setup git
+2021-02-22 16:19:13,880 DEBUG   HandlerThread:12620 [meta.py:_setup_git():187] setup git done
+2021-02-22 16:19:13,880 DEBUG   HandlerThread:12620 [meta.py:_save_pip():52] save pip
+2021-02-22 16:19:13,880 DEBUG   HandlerThread:12620 [meta.py:_save_pip():66] save pip done
+2021-02-22 16:19:13,880 DEBUG   HandlerThread:12620 [meta.py:probe():231] probe done
+2021-02-22 16:19:13,901 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:19:13,901 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file wandb-metadata.json with policy now
+2021-02-22 16:19:13,904 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: status
+2021-02-22 16:19:13,904 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:19:13,904 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: status
+2021-02-22 16:19:17,285 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:21,778 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:26,242 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:29,050 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: status
+2021-02-22 16:19:29,050 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:19:29,050 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: status
+2021-02-22 16:19:30,694 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:35,143 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:38,660 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:19:38,660 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Labels_0_0.jpg with policy now
+2021-02-22 16:19:38,661 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:19:38,661 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Labels_0_1.jpg with policy now
+2021-02-22 16:19:38,662 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:19:38,662 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Mosaics_0_0.jpg with policy now
+2021-02-22 16:19:38,663 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:19:38,663 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Mosaics_0_1.jpg with policy now
+2021-02-22 16:19:38,665 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:19:38,665 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Mosaics_0_2.jpg with policy now
+2021-02-22 16:19:38,667 DEBUG   SenderThread:12620 [sender.py:send():117] send: history
+2021-02-22 16:19:38,667 DEBUG   SenderThread:12620 [sender.py:send():117] send: summary
+2021-02-22 16:19:38,668 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-22 16:19:39,614 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:44,059 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:44,338 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: status
+2021-02-22 16:19:44,338 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:19:44,338 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: status
+2021-02-22 16:19:48,503 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:49,209 DEBUG   SenderThread:12620 [sender.py:send():117] send: history
+2021-02-22 16:19:49,209 DEBUG   SenderThread:12620 [sender.py:send():117] send: summary
+2021-02-22 16:19:49,210 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-22 16:19:52,951 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:55,343 DEBUG   SenderThread:12620 [sender.py:send():117] send: history
+2021-02-22 16:19:55,343 DEBUG   SenderThread:12620 [sender.py:send():117] send: summary
+2021-02-22 16:19:55,343 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-22 16:19:57,399 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:19:59,456 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: status
+2021-02-22 16:19:59,456 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:19:59,456 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: status
+2021-02-22 16:20:01,508 DEBUG   SenderThread:12620 [sender.py:send():117] send: history
+2021-02-22 16:20:01,508 DEBUG   SenderThread:12620 [sender.py:send():117] send: summary
+2021-02-22 16:20:01,509 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-22 16:20:01,843 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:20:06,293 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:20:10,744 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:20:11,196 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,196 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_0.png with policy now
+2021-02-22 16:20:11,197 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,197 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_00.boxes2D.json with policy now
+2021-02-22 16:20:11,197 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:11,315 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,315 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_1.png with policy now
+2021-02-22 16:20:11,316 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,316 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_10.boxes2D.json with policy now
+2021-02-22 16:20:11,316 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:11,425 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,425 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_2.png with policy now
+2021-02-22 16:20:11,426 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,426 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_20.boxes2D.json with policy now
+2021-02-22 16:20:11,427 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:11,549 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,549 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_3.png with policy now
+2021-02-22 16:20:11,549 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,550 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_30.boxes2D.json with policy now
+2021-02-22 16:20:11,550 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:11,673 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,673 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_4.png with policy now
+2021-02-22 16:20:11,675 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,675 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_40.boxes2D.json with policy now
+2021-02-22 16:20:11,675 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:11,808 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,808 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_5.png with policy now
+2021-02-22 16:20:11,809 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,809 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_50.boxes2D.json with policy now
+2021-02-22 16:20:11,809 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:11,937 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,938 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_6.png with policy now
+2021-02-22 16:20:11,938 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:11,938 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_60.boxes2D.json with policy now
+2021-02-22 16:20:11,938 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:12,071 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,071 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_7.png with policy now
+2021-02-22 16:20:12,071 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,071 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_70.boxes2D.json with policy now
+2021-02-22 16:20:12,072 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:12,190 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,190 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_8.png with policy now
+2021-02-22 16:20:12,190 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,190 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_80.boxes2D.json with policy now
+2021-02-22 16:20:12,191 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:12,289 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: poll_exit
+2021-02-22 16:20:12,321 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,322 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_9.png with policy now
+2021-02-22 16:20:12,322 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,322 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_90.boxes2D.json with policy now
+2021-02-22 16:20:12,323 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:12,452 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,452 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_10.png with policy now
+2021-02-22 16:20:12,452 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,452 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_100.boxes2D.json with policy now
+2021-02-22 16:20:12,453 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:12,612 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,612 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_11.png with policy now
+2021-02-22 16:20:12,618 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,618 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_110.boxes2D.json with policy now
+2021-02-22 16:20:12,618 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:12,748 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,748 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_12.png with policy now
+2021-02-22 16:20:12,748 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:12,748 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_120.boxes2D.json with policy now
+2021-02-22 16:20:12,749 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:13,055 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,056 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_13.png with policy now
+2021-02-22 16:20:13,057 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,057 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_130.boxes2D.json with policy now
+2021-02-22 16:20:13,059 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:13,227 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,228 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_14.png with policy now
+2021-02-22 16:20:13,230 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,230 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_140.boxes2D.json with policy now
+2021-02-22 16:20:13,231 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:13,358 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,359 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Images_4_15.png with policy now
+2021-02-22 16:20:13,359 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,359 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/metadata/boxes2D/Images_4_150.boxes2D.json with policy now
+2021-02-22 16:20:13,360 DEBUG   SenderThread:12620 [sender.py:send():117] send: config
+2021-02-22 16:20:13,531 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,531 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Validation_4_0.jpg with policy now
+2021-02-22 16:20:13,533 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,533 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Validation_4_1.jpg with policy now
+2021-02-22 16:20:13,534 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,534 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Validation_4_2.jpg with policy now
+2021-02-22 16:20:13,536 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,536 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Validation_4_3.jpg with policy now
+2021-02-22 16:20:13,537 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,537 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Validation_4_4.jpg with policy now
+2021-02-22 16:20:13,538 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,538 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Validation_4_5.jpg with policy now
+2021-02-22 16:20:13,539 DEBUG   SenderThread:12620 [sender.py:send():117] send: history
+2021-02-22 16:20:13,539 DEBUG   SenderThread:12620 [sender.py:send():117] send: summary
+2021-02-22 16:20:13,541 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-22 16:20:13,541 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,541 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Results_5_0.png with policy now
+2021-02-22 16:20:13,542 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,542 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Results_5_1.png with policy now
+2021-02-22 16:20:13,544 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,544 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Results_5_2.png with policy now
+2021-02-22 16:20:13,545 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,545 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Results_5_3.png with policy now
+2021-02-22 16:20:13,546 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,547 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Results_5_4.png with policy now
+2021-02-22 16:20:13,548 DEBUG   SenderThread:12620 [sender.py:send():117] send: files
+2021-02-22 16:20:13,548 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file media/images/Results_5_5.png with policy now
+2021-02-22 16:20:13,553 DEBUG   SenderThread:12620 [sender.py:send():117] send: history
+2021-02-22 16:20:13,553 DEBUG   SenderThread:12620 [sender.py:send():117] send: summary
+2021-02-22 16:20:13,554 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-22 16:20:13,554 DEBUG   SenderThread:12620 [sender.py:send():117] send: telemetry
+2021-02-22 16:20:13,696 DEBUG   SenderThread:12620 [sender.py:send():117] send: exit
+2021-02-22 16:20:13,696 INFO    SenderThread:12620 [sender.py:send_exit():195] handling exit code: 0
+2021-02-22 16:20:13,696 INFO    SenderThread:12620 [sender.py:send_exit():203] send defer
+2021-02-22 16:20:13,697 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:13,697 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: poll_exit
+2021-02-22 16:20:13,697 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: defer
+2021-02-22 16:20:13,697 INFO    HandlerThread:12620 [handler.py:handle_request_defer():108] handle defer: 0
+2021-02-22 16:20:13,697 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:13,697 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: defer
+2021-02-22 16:20:13,697 INFO    SenderThread:12620 [sender.py:send_request_defer():212] handle sender defer: 0
+2021-02-22 16:20:13,697 INFO    SenderThread:12620 [sender.py:send_request_defer():248] send defer: 1
+2021-02-22 16:20:13,697 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: defer
+2021-02-22 16:20:13,697 INFO    HandlerThread:12620 [handler.py:handle_request_defer():108] handle defer: 1
+2021-02-22 16:20:13,787 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:13,788 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: defer
+2021-02-22 16:20:13,788 INFO    SenderThread:12620 [sender.py:send_request_defer():212] handle sender defer: 1
+2021-02-22 16:20:13,788 INFO    SenderThread:12620 [sender.py:send_request_defer():248] send defer: 2
+2021-02-22 16:20:13,788 DEBUG   SenderThread:12620 [sender.py:send():117] send: stats
+2021-02-22 16:20:13,788 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: defer
+2021-02-22 16:20:13,789 INFO    HandlerThread:12620 [handler.py:handle_request_defer():108] handle defer: 2
+2021-02-22 16:20:13,789 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:13,789 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: defer
+2021-02-22 16:20:13,789 INFO    SenderThread:12620 [sender.py:send_request_defer():212] handle sender defer: 2
+2021-02-22 16:20:13,789 INFO    SenderThread:12620 [sender.py:send_request_defer():248] send defer: 3
+2021-02-22 16:20:13,789 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: defer
+2021-02-22 16:20:13,790 INFO    HandlerThread:12620 [handler.py:handle_request_defer():108] handle defer: 3
+2021-02-22 16:20:13,790 DEBUG   SenderThread:12620 [sender.py:send():117] send: summary
+2021-02-22 16:20:13,791 INFO    SenderThread:12620 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-22 16:20:13,791 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:13,791 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: defer
+2021-02-22 16:20:13,791 INFO    SenderThread:12620 [sender.py:send_request_defer():212] handle sender defer: 3
+2021-02-22 16:20:13,791 INFO    SenderThread:12620 [sender.py:send_request_defer():248] send defer: 4
+2021-02-22 16:20:13,792 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: defer
+2021-02-22 16:20:13,792 INFO    HandlerThread:12620 [handler.py:handle_request_defer():108] handle defer: 4
+2021-02-22 16:20:13,792 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:13,792 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: defer
+2021-02-22 16:20:13,792 INFO    SenderThread:12620 [sender.py:send_request_defer():212] handle sender defer: 4
+2021-02-22 16:20:13,939 INFO    SenderThread:12620 [sender.py:send_request_defer():248] send defer: 5
+2021-02-22 16:20:13,941 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: defer
+2021-02-22 16:20:13,941 INFO    HandlerThread:12620 [handler.py:handle_request_defer():108] handle defer: 5
+2021-02-22 16:20:13,942 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:13,942 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: defer
+2021-02-22 16:20:13,942 INFO    SenderThread:12620 [sender.py:send_request_defer():212] handle sender defer: 5
+2021-02-22 16:20:13,943 INFO    SenderThread:12620 [sender.py:send_request_defer():248] send defer: 6
+2021-02-22 16:20:13,944 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: defer
+2021-02-22 16:20:13,944 INFO    HandlerThread:12620 [handler.py:handle_request_defer():108] handle defer: 6
+2021-02-22 16:20:13,944 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:13,944 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: defer
+2021-02-22 16:20:13,945 INFO    SenderThread:12620 [sender.py:send_request_defer():212] handle sender defer: 6
+2021-02-22 16:20:14,156 INFO    SenderThread:12620 [sender.py:send_request_defer():248] send defer: 7
+2021-02-22 16:20:14,157 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: defer
+2021-02-22 16:20:14,157 INFO    HandlerThread:12620 [handler.py:handle_request_defer():108] handle defer: 7
+2021-02-22 16:20:14,157 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:14,158 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: defer
+2021-02-22 16:20:14,159 INFO    SenderThread:12620 [sender.py:send_request_defer():212] handle sender defer: 7
+2021-02-22 16:20:14,159 INFO    SenderThread:12620 [sender.py:send_request_defer():248] send defer: 8
+2021-02-22 16:20:14,160 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: defer
+2021-02-22 16:20:14,160 INFO    HandlerThread:12620 [handler.py:handle_request_defer():108] handle defer: 8
+2021-02-22 16:20:14,161 DEBUG   SenderThread:12620 [sender.py:send():117] send: final
+2021-02-22 16:20:14,161 DEBUG   SenderThread:12620 [sender.py:send():117] send: footer
+2021-02-22 16:20:14,161 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:14,162 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: defer
+2021-02-22 16:20:14,162 INFO    SenderThread:12620 [sender.py:send_request_defer():212] handle sender defer: 8
+2021-02-22 16:20:15,701 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: poll_exit
+2021-02-22 16:20:15,702 DEBUG   SenderThread:12620 [sender.py:send():117] send: request
+2021-02-22 16:20:15,702 DEBUG   SenderThread:12620 [sender.py:send_request():126] send_request: poll_exit
+2021-02-22 16:20:15,705 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: get_summary
+2021-02-22 16:20:15,708 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: sampled_history
+2021-02-22 16:20:15,712 DEBUG   HandlerThread:12620 [handler.py:handle_request():94] handle_request: shutdown
+2021-02-22 16:20:15,712 INFO    HandlerThread:12620 [handler.py:finish():333] shutting down handler
+2021-02-22 16:20:16,162 INFO    WriterThread:12620 [datastore.py:close():258] close: /home/patrick/YOLO/yolov5/wandb/run-20210222_161912-19a14jsw/run-19a14jsw.wandb
+2021-02-22 16:20:16,703 INFO    SenderThread:12620 [sender.py:finish():766] shutting down sender
+2021-02-22 16:20:16,719 INFO    MainThread:12620 [internal.py:handle_exit():78] Internal process exited
