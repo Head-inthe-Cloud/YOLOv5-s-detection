@@ -38,3 +38,17 @@ The labelled dataset (In PASCAL VOC format, and YOLOv3 format):
 
 Which I later converted to darknet format for Yolov5
 
+
+
+------------------------------------------------------------------------
+
+03/09/2021 Update
+
+Trying out some image augmentation Using Albumentations: https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/
+
+It supports the yolo darknet format for bounding box data.
+
+I will train a new model with augmented dataset soon.
+
+
+
