@@ -1,5 +1,5 @@
-train: ../Cone_dataset/images/train_cone
-val: ../Cone_dataset/images/test_cone
+train: ../Cone_gray/images/train
+val: ../Cone_gray/images/test
 
 nc: 1
 

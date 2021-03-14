@@ -1,6 +1,0 @@
-train: ../Cone_dataset/images/train_cone
-val: ../Cone_dataset/images/test_cone
-
-nc: 1
-
-names: ['Cone']

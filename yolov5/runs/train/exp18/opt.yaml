@@ -1,5 +1,5 @@
-weights: best.pt
-cfg: ''
+weights: ''
+cfg: ./models/yolov5s.yaml
 data: ./data/cone.yaml
 hyp: data/hyp.scratch.yaml
 epochs: 5
