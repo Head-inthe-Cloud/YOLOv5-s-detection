@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mushr_dataset2</folder>
+	<filename>frame281.jpg</filename>
+	<path>/home/patrick/CVProjects/YOLO/mushr_dataset2/frame281.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>544</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mushr_car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>372</xmin>
+			<ymin>115</ymin>
+			<xmax>834</xmax>
+			<ymax>541</ymax>
+		</bndbox>
+	</object>
+</annotation>

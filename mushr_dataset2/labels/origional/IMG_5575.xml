@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>IMG_5575.jpg</filename>
+	<path>/home/patrick/CVProjects/YOLO/mushr_dataset2/images/IMG_5575.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>3024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mushr_car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>68</xmin>
+			<ymin>293</ymin>
+			<xmax>3623</xmax>
+			<ymax>2387</ymax>
+		</bndbox>
+	</object>
+</annotation>

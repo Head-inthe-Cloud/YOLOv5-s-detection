@@ -1,7 +1,7 @@
-# YOLOv5-s-cone-detection
+# YOLOv5-s-detection
 
 
-### This repo contains the model for YOLOv5 cone detection and the training data set
+### This repo contains the model for YOLOv5 cone/MuSHR car detection and the training data set
 
 
 **The pretrained model is trained by using the following code:**
@@ -29,9 +29,23 @@ Change the test.yaml file in data folder to use different validation images.
 
 Data for each run can be found in **runs** folder.
 
+**To use the model for detection, use the following**
+
+```
+$ python detect.py --source 0  # webcam
+                            file.jpg  # image 
+                            file.mp4  # video
+                            path/  # directory
+                            path/*.jpg  # glob
+                            'https://youtu.be/NUsoVlDFqZg'  # YouTube video
+                            'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
+```
+
+### Datasets
+The MuSHR dataset is in ```mushr_dataset2```.
 
 
-**Most Recent work**
+**Most Recent work (This part is old and not updated)**
 
 Besides the yolo5s model that is trained on normal cones(**best_colored.pt**), I also trained another yolo5s model on the gray scale pictures of the same dataset(**best_gray.pt**). The result was surprisingly good.
 
