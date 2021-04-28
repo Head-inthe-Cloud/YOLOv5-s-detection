@@ -12,10 +12,12 @@ cd yolov5
 python train.py --img 640 --batch 16 --epochs 5 --data cone.yaml --weights best.pt
 
 ```
+...
 
 **To train your own model, follow the following tutorial**
 https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 
+...
 
 **To test the model, use the following**
 
@@ -24,6 +26,8 @@ python test.py --data test.yaml --weights your_weights_file.pt
 ```
 
 Change the test.yaml file in data folder to use different validation images.
+
+...
 
 **best.pt** can be replaced by **last.pt** or **best.pt** from different runs in the **runs** folder.
 
@@ -39,13 +43,15 @@ $ python detect.py --source 0  # webcam
                             path/*.jpg  # glob
                             'https://youtu.be/NUsoVlDFqZg'  # YouTube video
                             'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
+		   --weights runs/train/MuSHR/exp3/weights/best.pt
 ```
 
-### Datasets
+## Datasets
 The MuSHR dataset is in ```mushr_dataset2```.
+The cone dataset is in ```Cone_dataset``` and ```Cone_gray```.
 
 
-**Most Recent work (This part is old and not updated)**
+## Most Recent work (This part is old and not updated)
 
 Besides the yolo5s model that is trained on normal cones(**best_colored.pt**), I also trained another yolo5s model on the gray scale pictures of the same dataset(**best_gray.pt**). The result was surprisingly good.
 
