@@ -1,7 +1,7 @@
 # YOLOv5-s-detection
 
 
-### This repo contains the model for YOLOv5 cone/MuSHR car detection and the training data set
+### This repo contains the model for YOLOv5 cone/MuSHR car detection and the training datasets
 
 
 **The pretrained model is trained by using the following code:**
@@ -51,37 +51,33 @@ The MuSHR dataset is in ```mushr_dataset2```.
 The cone dataset is in ```Cone_dataset``` and ```Cone_gray```.
 
 
-## Most Recent work (This part is old and not updated)
+## Most Recent work
 
-Besides the yolo5s model that is trained on normal cones(**best_colored.pt**), I also trained another yolo5s model on the gray scale pictures of the same dataset(**best_gray.pt**). The result was surprisingly good.
+In my previous work I found that training with grayscale image could help increasing model's performance on detecting objects of different color, which is underrepresented or not included at all in the training dataset. The latest model in this repo detects both the MuShr car and traffic cones. The model is first trained with grayscale dataset. The result shows some false positve detections for cones. To resolve this, I did transfer training on this model with the colored dataset. The result shows significant improvement in the model's ability to correctly detect objects. However, the problem of false positives still exists. **(More details and metrics can be found in the image folder)**
 
-The old model can detect orange, right-side-up cones pretty well, but not so much for cones that have different colors. While the new model, which was trained totally on gray scale images, despite missing some of the orange cones, has a much better performance on cones of different colors. The results can be found in **runs/test** folder.
+**Model 1 (trained on grayscaled images alone)**
 
+**Model 1 Predictions**
+![model1_prediction1](images/model_gray/test_batch0_pred.jpg)
+![model1_prediction2](images/model_gray/confusion_matrix.png)
 
-**Old Model (Trained on colored images)**
+**Model 1 Performance**
+![model1_matrix](images/model_gray/test_batch1_pred.jpg)
 
-**Labeled data for old model**
-![labeled_old](images/test_batch0_labels.jpg)
+**Model 2 (Trained on grayscaled + colored images)**
 
-**Predicted data for old model**
-![predicted_old](images/test_batch0_pred.jpg)
+**Model 2 Predictions**
+![model2_prediction1](images/model_gray+color/test_batch0_pred.jpg)
+![model2_prediction2](images/model_gray+color/test_batch1_pred.jpg)
 
-**New Model (Trained on colored images)**
+**Model 2 Performance**
+![model2_matrix](images/model_gray+color/confusion_matrix.png)
 
-**Performance on gray scale images**
-![labeled_gray_gray](images/test_gray_labels.jpg)
-![predicted_gray_gray](images/test_gray_pred.jpg)
-
-**Performance on colored images**
-![labeled_gray_colored1](images/test_gc_labels1.jpg)
-![predicted_gray_colored1](images/test_gc_pred1.jpg)
-![labeled_gray_colored2](images/test_gc_labels2.jpg)
-![predicted_gray_colored2](images/test_gc_pred2.jpg)
 
 The source of data is this repo:
 	https://github.com/MarkDana/RealtimeConeDetection
 
-Where the author labelled this dataset: 
+Where the author labelled cone dataset: 
 	https://www.dropbox.com/s/fag8b45ijv14noy/cone_dataset.tar.gz?dl=0
 
 The labelled dataset (In PASCAL VOC format, and YOLOv3 format):
