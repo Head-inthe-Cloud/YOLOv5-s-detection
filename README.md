@@ -59,10 +59,10 @@ In my previous work I found that training with grayscale image could help increa
 
 **Model 1 Predictions**
 ![model1_prediction1](images/model_gray/test_batch0_pred.jpg)
-![model1_prediction2](images/model_gray/confusion_matrix.png)
+![model1_prediction2](images/model_gray/test_batch1_pred.jpg)
 
 **Model 1 Performance**
-![model1_matrix](images/model_gray/test_batch1_pred.jpg)
+![model1_matrix](images/model_gray/confusion_matrix.png)
 
 **Model 2 (Trained on grayscaled + colored images)**
 
