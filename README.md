@@ -46,6 +46,10 @@ $ python detect.py --source 0  # webcam
 		   --weights runs/train/MuSHR/exp3/weights/best.pt
 ```
 
+## Pretrained Models
+My trained model can be found here: 
+https://drive.google.com/drive/folders/1o2Ki7_-_h7GKqqWzU0DaY8wpcdFtzdfV?usp=sharing
+
 ## Datasets
 The MuSHR dataset is in ```mushr_dataset2```.
 The cone dataset is in ```Cone_dataset``` and ```Cone_gray```.
