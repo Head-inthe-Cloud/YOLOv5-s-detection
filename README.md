@@ -64,6 +64,10 @@ Check ```/datasets/```
 ## Work Process
 
 
+## Evaluation Methods
+
+Models are mainly evaluated with precision and mean average precision.
+
 **Experiment 1**
 Configuration: Default
 ![ex1_PR_curve](images/ex1_PR_curve.png)
