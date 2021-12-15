@@ -78,9 +78,9 @@ In the first experiment I found that the although model has a good performance o
 **Special Cones**
 ![special_cones](images/special_cones.jpg)
 
- **This is a serious issue to be addressed because we might use MuSHR cars of differnt color in our experiment. We might not be able to collect euqally large amount of data for MuSHR cars of each color, but we need to detect all of them.**
+ **This is a serious issue to be addressed because we might use MuSHR cars of different color in our experiment. We might not be able to collect equally large amount of data for MuSHR cars of each color, but we need to detect all of them.**
  
-Since the cones, similary to the MuSHR cars, are only different in color and have similar shapes. I tried to add an extra data augmentation step to make the dataset 50% grayscaled. This methods showed promising results/
+Since the cones are only different in color and have similar shapes. I tried to add an extra data augmentation step to make the dataset 50% grayscale. This methods showed promising results/
 
 **Special Cones after using 50% Grayscale, trained for 50 epochs**
 ![special_cones_fixed](images/special_cones_fixed.jpg)
@@ -93,7 +93,7 @@ Training with grayscale image could help increase model's performance on detecti
 
 ## Final Weights
 See ```/weights```
-## Infernece
+## Inference
 **Model inference result on our testing video**
 **https://drive.google.com/file/d/1qHjFCFF1cE0QG9qbMA0WN8k8D-bhe5he/view?usp=sharing**
 
