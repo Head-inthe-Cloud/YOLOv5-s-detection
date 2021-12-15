@@ -1,37 +1,27 @@
-# YOLOv5-s-detection
+# YOLOv5-Cone-MuSHR-detection
 
 
-### This repo contains the model for YOLOv5 cone/MuSHR car detection and the training datasets
+### This repo contains the model for YOLOv5 cone/MuSHR car detection and the training datasets I built 
 
 
-**The pretrained model is trained by using the following code:**
+**Training Code:**
 
 ```
 cd yolov5
 
-python train.py --img 640 --batch 16 --epochs 5 --data cone.yaml --weights best.pt
+python train.py --img 416 --epochs 50 --data cone.yaml --weights *Your pretrained weight here*
 
 ```
-...
 
-**To train your own model, follow the following tutorial**
-https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 
-...
 
-**To test the model, use the following**
+**Testing Code:**
 
 ```
-python test.py --data test.yaml --weights your_weights_file.pt
+python test.py --data test.yaml --weights *Your pretrained weight here*
 ```
 
 Change the test.yaml file in data folder to use different validation images.
-
-...
-
-**best.pt** can be replaced by **last.pt** or **best.pt** from different runs in the **runs** folder.
-
-Data for each run can be found in **runs** folder.
 
 **To use the model for detection, use the following**
 
@@ -46,39 +36,73 @@ $ python detect.py --source 0  # webcam
 		   --weights runs/train/MuSHR/exp3/weights/best.pt
 ```
 
+**To train your own model, check the following tutorial**
+https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
+
+### Weights:
+**best.pt** can be replaced by **last.pt** or **best.pt** from different runs in the **runs** folder.
+
+Data for each run can be found in **runs** folder.
+
+
 ## Pretrained Models
-My trained model can be found here: 
-https://drive.google.com/drive/folders/1o2Ki7_-_h7GKqqWzU0DaY8wpcdFtzdfV?usp=sharing
+My final model can be found here: 
+https://drive.google.com/drive/folders/1MjygiqN6K0NnJnVZeno591807APKeh0V?usp=sharing
 
 ## Datasets
-The MuSHR dataset is in ```mushr_dataset2```.
-The cone dataset is in ```Cone_dataset``` and ```Cone_gray```.
+Check ```/datasets/```
+
+**Traffic Cones**
+![cone_dataset](images/cone_dataset.jpg)
+**MuSHR car dataset**
+![mushr_dataset](images/mushr_dataset.jpg)
 
 
-## Most Recent work
-
-In my previous work I found that training with grayscale image could help increasing model's performance on detecting objects of different color, which is underrepresented or not included at all in the training dataset. The latest model in this repo detects both the MuShr car and traffic cones. The model is first trained with grayscale dataset. The result shows some false positve detections for cones. To resolve this, I did transfer training on this model with the colored dataset. The result shows significant improvement in the model's ability to correctly detect objects. However, the problem of false positives still exists. **(More details and metrics can be found in the image folder)**
-
-**Model 1 (trained on grayscaled images alone)**
-
-**Model 1 Predictions**
-![model1_prediction1](images/model_gray/test_batch0_pred.jpg)
-![model1_prediction2](images/model_gray/test_batch1_pred.jpg)
-
-**Model 1 Performance**
-![model1_matrix](images/model_gray/confusion_matrix.png)
-
-**Model 2 (Trained on grayscaled + colored images)**
-
-**Model 2 Predictions**
-![model2_prediction1](images/model_gray+color/test_batch0_pred.jpg)
-![model2_prediction2](images/model_gray+color/test_batch1_pred.jpg)
-
-**Model 2 Performance**
-![model2_matrix](images/model_gray+color/confusion_matrix.png)
+## Augmentation
+![augmentation](images/augmentation.png)
+**I later added 50% grayscale**
+## Work Process
 
 
-The source of data is this repo:
+**Experiment 1**
+Configuration: Default
+![ex1_PR_curve](images/ex1_PR_curve.png)
+![ex1_results](images/ex1_results.png)
+
+
+In the first experiment I found that the although model has a good performance over all, it performances much better on orange cones than on cones with special colors. I am sure this is caused by a lack of data since there are only 8 out of 251 cone data contains special-colored cones.
+
+**Normal Cones**
+![normal_cones](images/normal_cones.jpg)
+
+**Special Cones**
+![special_cones](images/special_cones.jpg)
+
+ **This is a serious issue to be addressed because we might use MuSHR cars of differnt color in our experiment. We might not be able to collect euqally large amount of data for MuSHR cars of each color, but we need to detect all of them.**
+ 
+Since the cones, similary to the MuSHR cars, are only different in color and have similar shapes. I tried to add an extra data augmentation step to make the dataset 50% grayscaled. This methods showed promising results/
+
+**Special Cones after using 50% Grayscale, trained for 50 epochs**
+![special_cones_fixed](images/special_cones_fixed.jpg)
+
+Training with grayscale image could help increase model's performance on detecting objects of different color, which is underrepresented or not included at all in the training dataset. I then trained the model for longer, eventually I got to a really good point.
+
+**Final Results**
+![final_results](images/final_results.png)
+![final_PR_curve](images/final_PR_curve.png)
+
+## Final Weights
+See ```/weights```
+## Infernece
+**Model inference result on our testing video**
+**https://drive.google.com/file/d/1qHjFCFF1cE0QG9qbMA0WN8k8D-bhe5he/view?usp=sharing**
+
+
+## Reference
+YOLOv5 by Ultralytics
+	https://github.com/ultralytics/yolov5
+	
+The source of cone data:
 	https://github.com/MarkDana/RealtimeConeDetection
 
 Where the author labelled cone dataset: 
@@ -89,17 +113,6 @@ The labelled dataset (In PASCAL VOC format, and YOLOv3 format):
 
 Which I later converted to darknet format for Yolov5
 
-
-
-------------------------------------------------------------------------
-
-03/09/2021 Update
-
-Trying out some image augmentation Using Albumentations: https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/
-
-It supports the yolo darknet format for bounding box data.
-
-I will train a new model with augmented dataset soon.
 
 
 

@@ -1,6 +1,5 @@
-train: ../Cone_gray/images/train
-val: ../Cone_gray/images/test
+train: ../dataset/Cone_dataset/images/all
+val: ../dataset/Cone_dataset/images/all
+nc: 2
 
-nc: 1
-
-names: ['Cone']
+names: ['cone', 'mushr_car']
