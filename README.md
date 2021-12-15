@@ -101,6 +101,8 @@ See ```/weights```
 **Model inference result on our testing video**
 **https://drive.google.com/file/d/1qHjFCFF1cE0QG9qbMA0WN8k8D-bhe5he/view?usp=sharing**
 
+## CSE 490 intro video
+**https://drive.google.com/file/d/14O_ILRUz7pAFKpu8n-GHeqIo81ig06jA/view?usp=sharing**
 
 ## Reference
 YOLOv5 by Ultralytics
